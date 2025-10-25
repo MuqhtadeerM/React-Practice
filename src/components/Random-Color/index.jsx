@@ -56,7 +56,7 @@ export default function RandomColor() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          color: "#fff",
+          color: "#5f5c5cff",
           fontSize: "60px",
           marginTop: "50px",
           flexDirection: "column",
