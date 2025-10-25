@@ -1,0 +1,52 @@
+button {
+  padding: 10px 18px;
+  margin: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Default base color */
+button:nth-child(1) {
+  background-color: #6366f1; /* Indigo */
+  color: white;
+}
+
+button:nth-child(1):hover {
+  background-color: #4f46e5;
+  transform: scale(1.05);
+}
+
+button:nth-child(2) {
+  background-color: #22c55e; /* Green */
+  color: white;
+}
+
+button:nth-child(2):hover {
+  background-color: #16a34a;
+  transform: scale(1.05);
+}
+
+button:nth-child(3) {
+  background-color: #f59e0b; /* Amber */
+  color: white;
+}
+
+button:nth-child(3):hover {
+  background-color: #d97706;
+  transform: scale(1.05);
+}
+
+/* Optional: Add a nice focus effect */
+button:focus {
+  outline: 2px solid #000;
+  outline-offset: 3px;
+}
+
+button.active {
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
